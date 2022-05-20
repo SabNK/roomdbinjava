@@ -1,6 +1,7 @@
-package com.visionary.roomdbinjava.db;
+package com.visionary.roomdbinjava.adapters.mappers;
 
-import com.visionary.roomdbinjava.base.Mapper;
+import com.visionary.roomdbinjava.adapters.helpers.DBUser;
+import com.visionary.roomdbinjava.domain.User;
 
 public class DBUserUserMapper implements Mapper<DBUser, User> {
 

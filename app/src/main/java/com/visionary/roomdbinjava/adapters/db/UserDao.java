@@ -1,11 +1,11 @@
-package com.visionary.roomdbinjava.db;
+package com.visionary.roomdbinjava.adapters.db;
 
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 
-import com.visionary.roomdbinjava.base.EntityDao;
+import com.visionary.roomdbinjava.adapters.helpers.DBUser;
 
 import java.util.List;
 

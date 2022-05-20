@@ -1,4 +1,10 @@
-package com.visionary.roomdbinjava.base;
+package com.visionary.roomdbinjava.adapters;
+
+import com.visionary.roomdbinjava.adapters.db.EntityDao;
+import com.visionary.roomdbinjava.adapters.mappers.ListMapper;
+import com.visionary.roomdbinjava.adapters.mappers.ListMapperImpl;
+import com.visionary.roomdbinjava.adapters.mappers.Mapper;
+import com.visionary.roomdbinjava.domain.Repository;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.visionary.roomdbinjava.base;
+package com.visionary.roomdbinjava.adapters.mappers;
 
 import java.util.List;
 

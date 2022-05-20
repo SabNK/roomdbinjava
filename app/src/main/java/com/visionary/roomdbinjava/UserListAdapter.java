@@ -9,8 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.visionary.roomdbinjava.db.DBUser;
-import com.visionary.roomdbinjava.db.User;
+import com.visionary.roomdbinjava.domain.User;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.visionary.roomdbinjava.base;
+package com.visionary.roomdbinjava.adapters.db;
 
 import android.content.Context;
 
@@ -6,8 +6,7 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import com.visionary.roomdbinjava.db.DBUser;
-import com.visionary.roomdbinjava.db.UserDao;
+import com.visionary.roomdbinjava.adapters.helpers.DBUser;
 
 @Database(entities = {DBUser.class}, version=1)
 public abstract class AppDatabase extends RoomDatabase {

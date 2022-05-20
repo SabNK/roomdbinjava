@@ -11,13 +11,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.visionary.roomdbinjava.base.AppDatabase;
-import com.visionary.roomdbinjava.base.Repository;
-import com.visionary.roomdbinjava.base.RepositoryDBImpl;
-import com.visionary.roomdbinjava.db.DBUser;
-import com.visionary.roomdbinjava.db.DBUserUserMapper;
-import com.visionary.roomdbinjava.db.User;
-import com.visionary.roomdbinjava.db.UserDBUserMapper;
+import com.visionary.roomdbinjava.adapters.db.AppDatabase;
+import com.visionary.roomdbinjava.domain.Repository;
+import com.visionary.roomdbinjava.adapters.RepositoryDBImpl;
+import com.visionary.roomdbinjava.adapters.helpers.DBUser;
+import com.visionary.roomdbinjava.adapters.mappers.DBUserUserMapper;
+import com.visionary.roomdbinjava.domain.User;
+import com.visionary.roomdbinjava.adapters.mappers.UserDBUserMapper;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.visionary.roomdbinjava.db;
+package com.visionary.roomdbinjava.domain;
 
 import java.util.Objects;
 

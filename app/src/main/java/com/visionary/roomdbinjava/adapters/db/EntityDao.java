@@ -1,4 +1,4 @@
-package com.visionary.roomdbinjava.base;
+package com.visionary.roomdbinjava.adapters.db;
 
 import java.util.List;
 

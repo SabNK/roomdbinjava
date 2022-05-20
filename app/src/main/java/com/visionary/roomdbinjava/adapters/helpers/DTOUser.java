@@ -1,4 +1,4 @@
-package com.visionary.roomdbinjava.db;
+package com.visionary.roomdbinjava.adapters.helpers;
 
 import com.google.gson.annotations.SerializedName;
 

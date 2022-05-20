@@ -1,7 +1,4 @@
-package com.visionary.roomdbinjava.base;
-
-import com.visionary.roomdbinjava.base.ListMapper;
-import com.visionary.roomdbinjava.base.Mapper;
+package com.visionary.roomdbinjava.adapters.mappers;
 
 import java.util.ArrayList;
 import java.util.List;
