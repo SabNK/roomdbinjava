@@ -3,6 +3,7 @@ package com.visionary.roomdbinjava;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -42,7 +43,9 @@ public class AddNewUserActivity extends AppCompatActivity {
                                                    new DBUserUserMapper(),
                                                    new UserDBUserMapper());
         User user = new User(new User.Name(firstName, lastName));
+        Log.d("NewUser", "prepare to add Repository");
         rep.add(user);
+        Log.d("NewUser", "added to Repository");
         finish();
 
     }
